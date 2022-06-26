@@ -1,0 +1,9 @@
+[package]
+name = "lambda-axum-example"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = "0.5.9"
+lambda-web = { version = "0.1.9", features = ["hyper"] }
+tokio = { version = "1.19.2", features = ["full"] }
