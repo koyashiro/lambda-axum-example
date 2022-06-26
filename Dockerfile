@@ -1,4 +1,4 @@
-FROM amazonlinux:2
+FROM amazonlinux:2022
 
 RUN yum update -y \
   && yum install -y gcc zip
